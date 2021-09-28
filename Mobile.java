@@ -15,5 +15,6 @@ public class Mobile {
   for(int i=0;i<database.length;i++) {
 	  System.out.println("Sequence number: "+Subscriber.getNumber()+", surname: "+database[i].getSurname()+", phone number: "+database[i].getPhone()+", address: "+database[i].getAddress()+", age: "+database[i].getAge());
   }
+  System.out.println("Всього створено " + database.length + " об'єктів.");
  }
 }
